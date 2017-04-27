@@ -1,0 +1,13 @@
+CPPFLAGS= -c -g -Iinc -fpermissive -std=c++11 -Wall -pedantic
+
+__START__: quick
+	./quick
+
+tablica: obj/main.o 
+	g++ -o quick obj/main.o
+
+obj/main.o: src/main.cpp
+	g++ ${CPPFLAGS} -o src/main.cpp
+
+clean:
+	rm -f obj/*.o quick

@@ -1,0 +1,5 @@
+0.409152 <- czas dla randomowej.
+0.39923 <- czas dla randomowej.
+0.391991 <- czas dla randomowej.
+0.401642 <- czas dla randomowej.
+0.402772 <- czas dla randomowej.
